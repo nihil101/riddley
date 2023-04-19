@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root {
+    background-image: url(bg.jpg);
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+*{
+    font-family: 'Nunito', cursive;
+    font-size: 15px;
+}
+
+form{
+    width: 100%;
+    max-width: 500px;
+    padding: 3px;
+    margin: auto;
+    border: solid thin #060422;
+}
+
+.textbox{
+    padding: 10px;
+    width: 90%;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+#btn {
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+    background-color: rgb(216, 19, 140);
+    border: none;
+    font-size: 1.1rem;
+
+}
+
+#btn:hover {
+    cursor:pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(194, 17, 111, 0.781);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#box {
+    background-color: #020427;
+    margin: auto;
+    width: 400px;
+    padding: 70px;
+}
+
+img {
+    max-width: 15%;
+    float:right;
+}
+
+img:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 2.4rem 0 rgba(234, 238, 5, 0.897);
+    border-radius: 50%;
+}
+
+.button .exit{
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+    border:none;
+    background-color: rgb(111, 19, 216);
+    font-size: 1.2rem;
+    
+}
+
+.button .exit:hover{
+    cursor:pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(159, 17, 194, 0.781);
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+}
+
+.button .play{
+    cursor: pointer;
+    padding: 10px;
+    width: 47px;
+    border: none;
+    color: #fff;
+    background-color: rgb(216, 19, 140);
+    font-size: 1.2rem;
+    float: right;
+    
+}
+
+.button .play:hover{
+    cursor:pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(194, 17, 106, 0.781);
+    transition: transform 150ms;
+    transform: scale(1.03);   
+    
+}
+
+.info{
+   
+    color: #fff;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+
+
+.infobox{
+    background-color: #020427;
+    margin: auto;
+    width: 400px;
+    padding: 70px;
+    align-items: center;
+}
+
+.infobox .activeInfo{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}

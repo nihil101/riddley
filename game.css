@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    font-size: 3.2rem;
+    border-radius: 4px;
+    border: 0.1rem solid rgba(199, 46, 92, 0.815);
+    background-color: #fff;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(199, 46, 92, 0.959);
+    transform: translateY(0.1rem);
+    transition: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 1.6rem 2.5rem;
+    background-color: #e0156a;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #1ce015;
+}
+
+.incorrect {
+    background-color: #da2e17;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+ .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+ }
+
+ .hud-main-text {
+    text-align: center;
+    font-size: 4rem;
+ }
+
+ h2 {
+    font-size: 2.5rem;
+    text-align: center;
+ }
+
+ 
